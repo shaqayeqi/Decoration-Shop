@@ -1,0 +1,37 @@
+#homeSlider h2{
+    font-family:  "Teko", sans-serif !important;
+    font-size: 4.3rem !important;
+    font-weight: 300 !important;
+    text-transform: uppercase;
+   
+}
+#homeSlider p{
+    font-size: 1.1rem;
+}
+#homeSlider img {
+    object-position: left bottom;
+}
+#homeSlider .btn-outline-secondary {
+    font-family: "Teko",
+        sans-serif !important;
+        font-size: 1.2rem !important;
+    --bs-btn-color: #6c757d;
+    --bs-btn-border-color: #6c757d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #6c757d;
+    --bs-btn-hover-border-color: #6c757d;
+    --bs-btn-focus-shadow-rgb: 108, 117, 125;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #6c757d;
+    --bs-btn-active-border-color: #6c757d;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #6c757d;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #6c757d;
+    --bs-gradient: none;
+}
+#homeSlider .btn {
+    --bs-btn-padding-x: 2rem !important;
+    --bs-btn-padding-y: 0.8rem !important;
+    
+}

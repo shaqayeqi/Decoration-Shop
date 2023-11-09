@@ -1,0 +1,65 @@
+.ProductBox {
+  font-family: "Teko", sans-serif !important;
+}
+
+.ProductBoxNewLabel {
+  clip-path: polygon(14% 0, 100% 0, 100% 100%, 0% 100%);
+  background-color: #fbef89;
+  color: #976f55;
+}
+
+.ProductBoxOffLabel {
+  clip-path: polygon(14% 0, 100% 0, 100% 100%, 0% 100%);
+  background-color: #976f55;
+  color: #fff;
+}
+.ProductBox img {
+  transform: scale(1.1, 1.1);
+  transition: all 300ms;
+}
+.ProductBox:hover img {
+  transform: scale(1, 1);
+}
+
+.ProductBox a {
+  text-decoration: none;
+  color: #000;
+  transition: all 300ms;
+}
+.ProductBox:hover a {
+  /* letter-spacing: 0.2rem; */
+  transform: scale(1, 1);
+  color: #fff;
+}
+
+.ProductBox:hover > div:nth-child(2) {
+  transition: all 300ms;
+}
+
+.ProductBox:hover > div:nth-child(2) {
+  background-color: #efc4a3;
+}
+
+.ProductBox hr {
+  width: 50%;
+  border-width: 3px;
+  border-color: #c7c8c9;
+  opacity: 1;
+  transition: all 300ms;
+  
+}
+
+.ProductBox:hover hr {
+  border-color: #fff;
+  width: 100%;
+}
+
+/* .ProductBox svg {
+  color: #c7c8c9;
+  transform: scale(0.7, 0.7);
+  transition: all 300ms;
+}
+
+.ProductBox:hover svg {
+  color: #fff;
+} */

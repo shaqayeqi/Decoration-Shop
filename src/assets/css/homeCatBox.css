@@ -1,0 +1,60 @@
+.HomeCatBox{
+font-family: "Teko", sans-serif !important;
+}
+.HomeCatBoxNewLable{
+    clip-path: polygon(17% 0, 100% 0%, 100% 100%, 0% 100%);
+    background-color: #fbef89;
+
+}
+.HomeCatBoxOffLable{
+    clip-path: polygon(17% 0, 100% 0%, 100% 100%, 0% 100%);
+    background-color: #976f55;
+    color: #fff;
+
+}
+.HomeCatBox img{
+    transform: scale(1.1,1.1);
+    transition: all 300ms ease-in-out;
+}
+.HomeCatBox:hover img {
+    transform: scale(1, 1);
+}
+.HomeCatBox a {
+    text-decoration: none;
+    color: #000;
+    transition: all 300ms ;
+}
+.HomeCatBox:hover a {
+    letter-spacing: 0.2rem;
+    color: #fff;
+}
+.HomeCatBox div:nth-child(2) {
+   transition: all 300ms ;
+
+}
+.HomeCatBox:hover div:nth-child(2){
+    background-color:#efc4a3;
+
+}
+.HomeCatBox hr {
+    width: 2rem;
+    border-width: 3px;
+    border-color: #c7c8c9;
+    opacity: 1;
+    transition: all 300ms;
+}
+.HomeCatBox:hover hr {
+    width: 4rem;
+    border-color: #fff;
+    
+}
+.HomeCatBox svg {
+   color: #c7c8c9;
+   transform: scale(1.2,1.2);
+   transition: all 300ms;
+}
+.HomeCatBox:hover svg {
+    color: #fff;
+    
+}
+

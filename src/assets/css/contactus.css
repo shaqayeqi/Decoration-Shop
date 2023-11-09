@@ -1,0 +1,45 @@
+.contactus-boxes{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    transition: all 300ms;
+    text-align: center;
+}
+.contactus-boxes:hover{
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px #0000004a;
+    padding: 2rem 3rem;
+}
+
+.contactus-boxes hr{
+   border: 2px solid #976f55;
+   margin: 1rem auto;
+   width: 0;
+   opacity: 0;
+    transition: all 300ms;
+}
+.contactus-boxes:hover hr{
+    width: 50%;
+    opacity: 1;
+    margin: 2rem auto;
+
+}
+.contactus-boxes a{
+    text-decoration: none;
+    color: #000;
+    transition: all 300ms;
+}
+.contactus-boxes a:hover{
+    color: #ca9572;
+}
+.contactus-boxes p{
+    margin: 0;
+}
+h2{
+    font-family: "Teko";
+    font-size: 3rem !important;
+    font-weight: 100 !important;
+}

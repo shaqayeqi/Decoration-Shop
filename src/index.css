@@ -1,0 +1,19 @@
+body{
+  font-family: 'Poppins', sans-serif !important;
+}
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  max-width: 1180px !important;
+}
+p[role='alert']{
+  position: absolute !important;
+  color: red !important;
+  top: 0;
+  right: 0;
+  font-size: 0.7rem;
+  margin: 0 1rem 0 0;
+}

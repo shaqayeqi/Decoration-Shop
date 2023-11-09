@@ -1,0 +1,102 @@
+#MainFooter{
+    color: #fff;
+}
+#MainFooter .container-fluid:nth-child(1){
+ background-color:#272727;
+}
+#MainFooter .container-fluid:nth-child(2){
+    background-color:#202020;
+    font-size: 0.8rem;
+}
+#MainFooter .container-fluid:nth-child(2) .container{
+    opacity: 0.3;
+}
+#MainFooter  p{
+    opacity: 0.3;
+    font-size: 0.9rem;
+    padding: 1rem 0;
+}
+#MainFooter h3{
+    font-family: "Teko",sans-serif !important;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+#MainFooter .btn-custom-1,btn-custom-1:focus{
+    color: #fff;
+    background-color: #f4c29a;
+    transition: all 0.2s ease-in-out;
+}
+#MainFooter .btn-custom-1:hover{
+    background-color: #fff;
+    color: #f4c29a;
+}
+.link-custom-1{
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+.link-custom-1:hover{
+    color:#efc4a3 ;
+    background-color: #976f55;
+}
+.link-square-small{
+   width: 30px !important;
+   height: 30px !important;
+   font-size: 0.9rem;
+   
+}
+.link-square{
+    width: 100% !important;
+    height: 100% !important;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+#FooterGallary   .col div img{
+ transform: scale(1.2,1.2);
+ opacity: 1;
+ transition: all 0.2s ease-in-out;
+}
+#FooterGallary .col:hover div img{
+    transform: scale(1.01,1.01);
+    opacity: 0.6;
+}
+#FooterGallary .col div{
+    overflow: hidden;
+}
+
+#FooterGallary .col div .zoom-icon{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+#FooterGallary .col:hover div .zoom-icon{
+    top: 0;
+    opacity: 1;
+}
+
+#FooterGallary .col::after{
+    position: absolute;
+    display: inline;
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    border: 1px solid #fff;
+    content: "";
+    transition: all 0.2s ease-in-out;
+    transform: scale(0.8);
+    opacity: 0;
+}
+#FooterGallary .col:hover::after{
+    opacity: 1;
+    transform: none;
+}
+
